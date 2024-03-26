@@ -1,8 +1,110 @@
 import {Link} from "react-router-dom";
+import React from 'react';
 
-export const Page1 = () => (
+  const Page1 = () => (
     <>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
+        <h1>Page1</h1>
         <h1>Page1</h1>
 <Link to={'/page2'}>to p2</Link>
     </>
 )
+
+export default Page1

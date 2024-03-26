@@ -14,7 +14,7 @@
   },
   "name": "lazy_test2",
   "version": "1.0.0",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "devDependencies": {},
   "scripts": {
     "start": "webpack serve --config webpack.config.js --mode development",

@@ -39,4 +39,7 @@ module.exports = {
             chunks: 'all',
         },
     },
+    devServer: {
+        historyApiFallback: true,
+    }
 };

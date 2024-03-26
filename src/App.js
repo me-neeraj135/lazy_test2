@@ -1,7 +1,10 @@
+import React from 'react';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {Suspense} from "react";
-import {Page1} from "./Page1";
-import {Page2} from "./Page2";
+// import Page1 from "./Page1"
+// import Page2 from "./Page2"
+const Page1 = React.lazy(() => import("./Page1"));
+const Page2 = React.lazy(() => import("./Page2"));
 
 const Loading = () => <h1 style={{ color: 'red' }}>Loading</h1>
 
