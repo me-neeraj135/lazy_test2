@@ -1,28 +1,18 @@
 import React from 'react';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
-import {Suspense} from "react";
-// import Page1 from "./Page1"
-// import Page2 from "./Page2"
+import {BrowserRouter} from "react-router-dom";
+import AllRoutes from "./AllRoutes";
+import { styled } from 'linaria/react';
 const Page1 = React.lazy(() => import("./Page1"));
 const Page2 = React.lazy(() => import("./Page2"));
 
-const Loading = () => <h1 style={{ color: 'red' }}>Loading</h1>
-
+const Button = styled.button`
+  color: red;
+`;
 export const App = () =>{
     return (
         <BrowserRouter>
-            <Routes>
-                <Route path={'/page1'} element={(
-                    <Suspense fallback={<Loading/>}>
-                        <Page1/>
-                    </Suspense>
-                )} />
-                <Route path={'/page2'} element={(
-                    <Suspense fallback={<Loading/>}>
-                        <Page2/>
-                    </Suspense>
-                )} />
-            </Routes>
+            <Button>Click me</Button>
+            <AllRoutes />
         </BrowserRouter>
     )
 }
